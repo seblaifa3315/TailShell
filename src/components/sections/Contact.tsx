@@ -287,7 +287,7 @@ export default function Contact() {
                   <Button
                     type="submit"
                     disabled={formState === "loading"}
-                    className="w-full h-14 bg-foreground hover:bg-foreground/90 text-white text-body font-semibold rounded-xl"
+                    className="w-full h-14 bg-foreground hover:bg-foreground/80 text-white! text-body font-semibold rounded-xl cursor-pointer"
                   >
                     {formState === "loading" ? (
                       <>
