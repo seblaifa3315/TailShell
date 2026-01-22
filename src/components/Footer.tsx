@@ -29,7 +29,7 @@ export default function Footer() {
               Portable Protection, Anywhere.
             </p>
             <p className="text-small text-white/50">
-              © 2024 TailShell. All rights reserved.
+              © 2026 TailShell. All rights reserved.
             </p>
           </div>
 
