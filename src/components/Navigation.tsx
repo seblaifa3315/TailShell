@@ -41,12 +41,21 @@ export default function Navigation() {
           {/* Logo */}
           <button
             onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-            className={cn(
-              "cursor-pointer text-xl md:text-2xl font-bold transition-colors",
-              isScrolled ? "text-foreground" : "text-white"
-            )}
+            className="cursor-pointer flex items-center gap-2"
           >
-            TailShell
+            <img
+              src="/TailShell-logo-Teal.svg"
+              alt="TailShell logo"
+              className="h-8 md:h-10 w-auto"
+            />
+            <span
+              className={cn(
+                "text-xl md:text-2xl font-bold transition-colors",
+                isScrolled ? "text-foreground" : "text-white"
+              )}
+            >
+              TailShell
+            </span>
           </button>
 
           {/* Desktop Navigation */}

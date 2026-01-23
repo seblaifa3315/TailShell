@@ -60,6 +60,16 @@ export const USE_CASES = [
     color: "#6B7280",
     icon: "shield",
   },
+  {
+    id: "co-branding",
+    image: "/images/co-branding.jpg",
+    title: "Co-Branding",
+    headline: "Your Brand. Our Protection",
+    description:
+      "Elevate your brand with custom co-branded TailShell products. Perfect for sports teams, corporate events, universities, and promotional campaigns.",
+    color: "#6B7280",
+    icon: "shield",
+  },
 ] as const;
 
 // Product Specifications

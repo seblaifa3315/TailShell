@@ -32,19 +32,16 @@ export default function UseCases() {
         {/* Use Cases Grid */}
         <motion.div
           {...staggerContainer}
-          className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8"
+          className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8"
         >
-          {USE_CASES.map((useCase, index) => {
+          {USE_CASES.map((useCase) => {
             const IconComponent = iconMap[useCase.icon];
-            const isLast = index === USE_CASES.length - 1;
 
             return (
               <motion.div
                 key={useCase.id}
                 {...staggerItem}
-                className={`group relative bg-muted rounded-2xl overflow-hidden transition-all duration-300 hover:scale-[1.02] ${
-                  isLast ? "md:col-span-2 md:max-w-[calc(50%-1rem)] md:mx-auto" : ""
-                }`}
+                className="group relative bg-muted rounded-2xl overflow-hidden transition-all duration-300 hover:scale-[1.02]"
                 style={{
                   borderColor: "transparent",
                 }}
