@@ -3,11 +3,11 @@
 import { motion } from "framer-motion";
 
 const PRODUCT_COLORS = [
-  { name: "Charcoal", hex: "#2C2C2C" },
-  { name: "Navy", hex: "#1E3A5F" },
-  { name: "Forest", hex: "#2D5016" },
-  { name: "Terracotta", hex: "#C75B39" },
-  { name: "Sand", hex: "#D4C4A8" },
+  { name: "Plum", hex: "#782241" },
+  { name: "Olive Green", hex: "#616325" },
+  { name: "Deep Teal", hex: "#243a47" },
+  { name: "Navy Blue", hex: "#1a2336" },
+  { name: "Black", hex: "#000000" },
 ];
 
 export default function ColorsBanner() {
